@@ -13,7 +13,7 @@
         <div class="col-md-5">
             <div class="card shadow">
                 <div class="card-body p-4">
-                    <h3 class="text-center mb-4">🔧 ReparaYa</h3>
+                    <h3 class="text-center mb-4">ReparaYa</h3>
                     <h5 class="text-center mb-4">Crear Cuenta</h5>
 
                     <?php if(isset($_GET['error'])): ?>
