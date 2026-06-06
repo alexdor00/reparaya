@@ -17,40 +17,40 @@ if(!isset($_SESSION['usuario_id']) || $_SESSION['usuario_rol'] != 'admin') {
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
     <div class="container">
-        <a class="navbar-brand" href="#"> ReparaYa - Admin</a>
+        <a class="navbar-brand" href="#">ReparaYa - Admin</a>
         <div class="ms-auto">
             <span class="text-light me-3">Hola, <?php echo $_SESSION['usuario_nombre']; ?></span>
-            <a href="../../../app/controllers/AuthController.php?action=logout" class="btn btn-outline-light">Cerrar Sesión</a>
+            <a href="../../../app/controllers/AuthController.php?action=logout" class="btn btn-outline-light">Cerrar Sesion</a>
         </div>
     </div>
 </nav>
 
 <div class="container mt-4">
-    <h2>Panel de Administración</h2>
+    <h2>Panel de Administracion</h2>
 
     <div class="row mt-4">
         <div class="col-md-3">
             <div class="card text-center p-3">
                 <h5>Todas las Incidencias</h5>
-                <a href="#" class="btn btn-danger mt-2">Ver Incidencias</a>
+                <a href="incidencias.php" class="btn btn-danger mt-2">Ver Incidencias</a>
             </div>
         </div>
         <div class="col-md-3">
             <div class="card text-center p-3">
-                <h5> Nueva Incidencia</h5>
-                <a href="#" class="btn btn-danger mt-2">Crear</a>
+                <h5>Nueva Incidencia</h5>
+                <a href="nueva_incidencia.php" class="btn btn-danger mt-2">Crear</a>
             </div>
         </div>
         <div class="col-md-3">
             <div class="card text-center p-3">
-                <h5> Gestionar Técnicos</h5>
-                <a href="#" class="btn btn-danger mt-2">Ver Técnicos</a>
+                <h5>Gestionar Tecnicos</h5>
+                <a href="tecnicos.php" class="btn btn-danger mt-2">Ver Tecnicos</a>
             </div>
         </div>
         <div class="col-md-3">
             <div class="card text-center p-3">
                 <h5>Calendario</h5>
-                <a href="#" class="btn btn-danger mt-2">Ver Calendario</a>
+                <a href="calendario.php" class="btn btn-danger mt-2">Ver Calendario</a>
             </div>
         </div>
     </div>
