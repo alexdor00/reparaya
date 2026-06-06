@@ -29,28 +29,40 @@ if(!isset($_SESSION['usuario_id']) || $_SESSION['usuario_rol'] != 'admin') {
     <h2>Panel de Administracion</h2>
 
     <div class="row mt-4">
-        <div class="col-md-3">
+        <div class="col-md-4">
             <div class="card text-center p-3">
                 <h5>Todas las Incidencias</h5>
                 <a href="incidencias.php" class="btn btn-danger mt-2">Ver Incidencias</a>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
             <div class="card text-center p-3">
                 <h5>Nueva Incidencia</h5>
                 <a href="nueva_incidencia.php" class="btn btn-danger mt-2">Crear</a>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
             <div class="card text-center p-3">
                 <h5>Gestionar Tecnicos</h5>
                 <a href="tecnicos.php" class="btn btn-danger mt-2">Ver Tecnicos</a>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4 mt-3">
             <div class="card text-center p-3">
                 <h5>Calendario</h5>
                 <a href="calendario.php" class="btn btn-danger mt-2">Ver Calendario</a>
+            </div>
+        </div>
+        <div class="col-md-4 mt-3">
+            <div class="card text-center p-3">
+                <h5>Tipos de Servicio</h5>
+                <a href="tipos_servicio.php" class="btn btn-danger mt-2">Ver Tipos</a>
+            </div>
+        </div>
+        <div class="col-md-4 mt-3">
+            <div class="card text-center p-3">
+                <h5>Mi Perfil</h5>
+                <a href="../../app/views/perfil.php" class="btn btn-danger mt-2">Ver Perfil</a>
             </div>
         </div>
     </div>
