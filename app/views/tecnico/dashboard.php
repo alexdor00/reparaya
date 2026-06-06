@@ -48,6 +48,7 @@ $proximos = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <a class="navbar-brand" href="#">ReparaYa - Tecnico</a>
         <div class="ms-auto">
             <span class="text-light me-3"><?php echo $_SESSION['usuario_nombre']; ?></span>
+            <a href="../../../app/views/perfil.php" class="btn btn-outline-light me-2">Mi Perfil</a>
             <a href="../../../app/controllers/AuthController.php?action=logout" class="btn btn-outline-light">Cerrar Sesion</a>
         </div>
     </div>
